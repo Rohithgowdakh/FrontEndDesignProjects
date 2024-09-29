@@ -1,0 +1,839 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Restoran</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+  <!-- header section-->
+  <nav class="navbar navbar-expand-lg bg-white shadow sticky-top">
+    <div class="container ">
+      <img src="./images/logo-2.png" alt="Restoran" height="20px" width="50px" class="img-fluid logo">
+      <a class="navbar-brand logo-name" href="#">Restoran</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav  mx-auto p-2">
+          <li class="nav-item header-item">
+            <a class="nav-link active fw-bold" aria-current="page" href="#HOME">HOME</a>
+          </li>
+          <li class="nav-item header-item">
+            <a class="nav-link active fw-bold" aria-current="page" href="#ABOUT">ABOUT</a>
+          </li>
+          <li class="nav-item header-item">
+            <a class="nav-link active fw-bold" aria-current="page" href="#MENU">MENU</a>
+          </li>
+          <li class="nav-item header-item">
+            <a class="nav-link active fw-bold" aria-current="page" href="#FEATURES">FEATURES</a>
+          </li>
+          <li class="nav-item header-item">
+            <a class="nav-link active fw-bold" aria-current="page" href="#TEAM">TEAM</a>
+          </li>
+          <li class="nav-item header-item">
+            <a class="nav-link active fw-bold" aria-current="page" href="#RESERVATION">RESERVATION</a>
+          </li>
+          <li class="nav-item header-item">
+            <a class="nav-link active fw-bold" aria-current="page" href="#BLOG">BLOG</a>
+          </li>
+        </ul>
+        <a href="#" class="btn btn-brand">Order Online</a>
+      </div>
+    </div>
+  </nav>
+  <!--End of  header section-->
+  <!--Hero section-->
+  <section id="HOME">
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container-fluid d-flex justify-content-center hero-1">
+            <div class="row text-center ">
+              <div class="col-md-12">
+                <h6 class="fw-bold fs-6 text-white">WELCOME TO RESTORAN</h6>
+                <h1 class="display-1 fw-bold text-white mt-2">Char-grilled and <br /> flavour-filled</h1>
+                <a href="#" class="btn btn-brand mt-3">Book Table</a>
+              </div>
+            </div>
+          </div>
+          <!-- <img src="./images/hero-1.jpg" class="d-block w-100  " height="520vh" alt="hero 1"> -->
+        </div>
+        <div class="carousel-item ">
+          <div class="container-fluid d-flex justify-content-center align-item-center hero-2">
+            <div class="row text-center">
+              <div class="col-md-12">
+                <h6 class="fw-bold fs-6 text-white">WELCOME TO RESTORAN</h6>
+                <h1 class="display-1 fw-bold text-white mt-2">Char-grilled and <br /> flavour-filled</h1>
+                <a href="#" class="btn btn-brand mt-3">Book Table</a>
+              </div>
+            </div>
+          </div>
+          <!-- <img src="./images/hero-2.jpg" class="d-block w-100 " height="520vh" alt="hero-2"> -->
+        </div>
+        <div class="carousel-item">
+          <div class="container-fluid d-flex justify-content-center align-item-center hero-3">
+            <div class="row text-center">
+              <div class="col-md-12">
+                <h6 class="fw-bold fs-6 text-white">WELCOME TO RESTORAN</h6>
+                <h1 class="display-1 fw-bold text-white mt-2">Fresh and <br /> Tasty Food</h1>
+                <a href="#" class="btn btn-brand mt-3">Book Table</a>
+              </div>
+            </div>
+          </div>
+          <!-- <img src="./images/Hero-3.jpg" class="d-block w-100 " height="520vh" alt="hero-3"> -->
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <!--End of Hero section-->
+  <!--About us-->
+  <section id="ABOUT">
+    <div class="container-fluid about-us">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <img src="./images/about-us-1.jpg" class="img-fluid">
+        </div>
+        <div class="col-md-5 ">
+          <h1 class="display-6 fw-bold text-dark mt-2">About Us</h1>
+          <p class="fs-5">each dish is crafted to tell a unique tale of exceptional flavors and memorable experiences.
+            Join us for a culinary journey that transforms every meal into an unforgettable story.<br /><br />
+            each dish is crafted to tell a unique tale of exceptional flavors and memorable experiences. Join us for a
+            culinary journey that transforms every meal into an unforgettable story.</p>
+          <a href="#" class="btn btn-brand">Explore Menu</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--End of About us-->
+  <!--Menu-->
+  <section id="MENU" class="main">
+    <div class="container-fluid">
+      <div class="row text-center">
+        <div class="col-sm-12">
+          <h1 class="display-6 fw-medium text-dark">Explore Menu</h1>
+          <p class="mt-3 fs-5">Explore our curated menu, where every dish is crafted to delight your taste buds.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+        <li class="nav-item mx-3" role="presentation">
+          <button class="nav-link active menu-button fs-5 my-2" id="pills-all-tab" data-bs-toggle="pill"
+            data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-all"
+            aria-selected="true">All</button>
+        </li>
+        <li class="nav-item mx-3" role="presentation">
+          <button class="nav-link menu-button fs-5 my-2" id="pills-breakfast-tab" data-bs-toggle="pill"
+            data-bs-target="#pills-breakfast" type="button" role="tab" aria-controls="pills-breakfast"
+            aria-selected="false">Breakfast</button>
+        </li>
+        <li class="nav-item mx-3" role="presentation">
+          <button class="nav-link menu-button fs-5 my-2" id="pills-launch-tab" data-bs-toggle="pill"
+            data-bs-target="#pills-launch" type="button" role="tab" aria-controls="pills-L\launch"
+            aria-selected="false">Launch</button>
+        </li>
+        <li class="nav-item mx-3" role="presentation">
+          <button class="nav-link menu-button fs-5 my-2" id="pills-dinner-tab" data-bs-toggle="pill"
+            data-bs-target="#pills-dinner" type="button" role="tab" aria-controls="pills-dinner"
+            aria-selected="false">Dinner</button>
+        </li>
+      </ul>
+      <div class="tab-content justify-content-center" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab"
+          tabindex="0">
+          <div class="container-fluid justify-content-center">
+            <div class="row justify-content-evenly ">
+              <div class="col-lg-3 col-md-4  col-sm-6 mt-3">
+                <div class="card">
+                  <img src="./images/food-1.jpg" class="card-img-top" alt="food-1">
+                  <div class="card-body">
+                    <h5 class="card-title">Prawns Meal Combo</h5>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <p class="card-text">Explore our menu featuring a range of expertly crafted dishes.</p>
+                    <a href="#" class="btn btn-brand"><i class="bi bi-currency-rupee text-dark"></i>399</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4  col-sm-6 mt-3">
+                <div class="card">
+                  <img src="./images/food-2.jpg" class="card-img-top" alt="food-2">
+                  <div class="card-body">
+                    <h5 class="card-title">Chicken Meal Combo</h5>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <p class="card-text">Explore our menu featuring a range of expertly crafted dishes. </p>
+                    <a href="#" class="btn btn-brand"><i class="bi bi-currency-rupee text-dark"></i>299</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
+                <div class="card">
+                  <img src="./images/food-3.jpg" class="card-img-top" alt="food-3">
+                  <div class="card-body">
+                    <h5 class="card-title">Singapore Noodles</h5>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <p class="card-text">Explore our menu featuring a range of expertly crafted dishes. </p>
+                    <a href="#" class="btn btn-brand"><i class="bi bi-currency-rupee text-dark"></i>499</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4  col-sm-6 mt-3">
+                <div class="card">
+                  <img src="./images/food-4.jpg" class="card-img-top" alt="food-4">
+                  <div class="card-body">
+                    <h5 class="card-title">Launch Dish-1</h5>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <p class="card-text">Explore our menu featuring a range of expertly crafted dishes. </p>
+                    <a href="#" class="btn btn-brand"><i class="bi bi-currency-rupee text-dark"></i>249</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4  col-sm-6 mt-3">
+                <div class="card">
+                  <img src="./images/food-5.jpg" class="card-img-top" alt="food-5">
+                  <div class="card-body">
+                    <h5 class="card-title">Veg Starter Combo</h5>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <p class="card-text">Explore our menu featuring a range of expertly crafted dishes. </p>
+                    <a href="#" class="btn btn-brand"><i class="bi bi-currency-rupee text-dark"></i>499</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4  col-sm-6 mt-3">
+                <div class="card">
+                  <img src="./images/food-6.jpg" class="card-img-top" alt="food-6">
+                  <div class="card-body">
+                    <h5 class="card-title">Tangdi Kabab</h5>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <p class="card-text">Explore our menu featuring a range of expertly crafted dishes. </p>
+                    <a href="#" class="btn btn-brand"><i class="bi bi-currency-rupee text-dark"></i>199</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4  col-sm-6 mt-3">
+                <div class="card">
+                  <img src="./images/food-77.jpg" class="card-img-top" alt="food-7">
+                  <div class="card-body">
+                    <h5 class="card-title">Gobi Manchurian</h5>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <p class="card-text">Explore our menu featuring a range of expertly crafted dishes. </p>
+                    <a href="#" class="btn btn-brand"><i class="bi bi-currency-rupee text-dark"></i>349</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4  col-sm-6 mt-3">
+                <div class="card">
+                  <img src="./images/food-8.webp" class="card-img-top" alt="food-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Akki Tari Uppittu</h5>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <p class="card-text">Explore our menu featuring a range of expertly crafted dishes.expertly crafted
+                      dishes.</p>
+                    <a href="#" class="btn btn-brand"><i class="bi bi-currency-rupee text-dark"></i>299</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4  col-sm-6 mt-3">
+                <div class="card">
+                  <img src="./images/food-12.jpg" class="card-img-top" alt="food-9">
+                  <div class="card-body">
+                    <h5 class="card-title">Peshawari Paneer Tikka</h5>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <p class="card-text">Explore our menu featuring a range of expertly crafted dishes.</p>
+                    <a href="#" class="btn btn-brand"><i class="bi bi-currency-rupee text-dark"></i>459</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade show " id="pills-breakfast" role="tabpanel" aria-labelledby="pills-breakfast-tab"
+          tabindex="0">
+          <div class="container-fluid justify-content-center">
+            <div class="row justify-content-evenly ">
+              <div class="col-lg-3 col-md-4  col-sm-6 mt-3">
+                <div class="card">
+                  <img src="./images/food-1.jpg" class="card-img-top" alt="food-1">
+                  <div class="card-body">
+                    <h5 class="card-title">Prawns Meal Combo</h5>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <p class="card-text">Explore our menu featuring a range of expertly crafted dishes.</p>
+                    <a href="#" class="btn btn-brand"><i class="bi bi-currency-rupee text-dark"></i>399</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4  col-sm-6 mt-3">
+                <div class="card">
+                  <img src="./images/food-2.jpg" class="card-img-top" alt="food-2">
+                  <div class="card-body">
+                    <h5 class="card-title">Chicken Meal Combo</h5>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <p class="card-text">Explore our menu featuring a range of expertly crafted dishes. </p>
+                    <a href="#" class="btn btn-brand"><i class="bi bi-currency-rupee text-dark"></i>299</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4  col-sm-6 mt-3">
+                <div class="card">
+                  <img src="./images/food-3.jpg" class="card-img-top" alt="food-3">
+                  <div class="card-body">
+                    <h5 class="card-title">Singapore Noodles</h5>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <p class="card-text">Explore our menu featuring a range of expertly crafted dishes. </p>
+                    <a href="#" class="btn btn-brand"><i class="bi bi-currency-rupee text-dark"></i>499</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade show" id="pills-launch" role="tabpanel" aria-labelledby="pills-launch-tab"
+          tabindex="0">
+          <div class="container-fluid justify-content-center">
+            <div class="row justify-content-evenly ">
+              <div class="col-lg-3 col-md-4  col-sm-6 mt-3">
+                <div class="card">
+                  <img src="./images/food-4.jpg" class="card-img-top" alt="food-4">
+                  <div class="card-body">
+                    <h5 class="card-title">Launch Dish-1</h5>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <p class="card-text">Explore our menu featuring a range of expertly crafted dishes. </p>
+                    <a href="#" class="btn btn-brand"><i class="bi bi-currency-rupee text-dark"></i>249</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4  col-sm-6 mt-3">
+                <div class="card">
+                  <img src="./images/food-5.jpg" class="card-img-top" alt="food-5">
+                  <div class="card-body">
+                    <h5 class="card-title">Veg Starter Combo</h5>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <p class="card-text">Explore our menu featuring a range of expertly crafted dishes. </p>
+                    <a href="#" class="btn btn-brand"><i class="bi bi-currency-rupee text-dark"></i>499</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4  col-sm-6 mt-3">
+                <div class="card">
+                  <img src="./images/food-6.jpg" class="card-img-top" alt="food-6">
+                  <div class="card-body">
+                    <h5 class="card-title">Tangdi Kabab</h5>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <p class="card-text">Explore our menu featuring a range of expertly crafted dishes. </p>
+                    <a href="#" class="btn btn-brand"><i class="bi bi-currency-rupee text-dark"></i>199</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade show" id="pills-dinner" role="tabpanel" aria-labelledby="pills-dinner-tab"
+          tabindex="0">
+          <div class="container-fluid justify-content-center">
+            <div class="row justify-content-evenly ">
+              <div class="col-lg-3 col-md-4  col-sm-6 mt-3">
+                <div class="card">
+                  <img src="./images/food-77.jpg" class="card-img-top" alt="food-7">
+                  <div class="card-body">
+                    <h5 class="card-title">Gobi Manchurian</h5>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <p class="card-text">Explore our menu featuring a range of expertly crafted dishes. </p>
+                    <a href="#" class="btn btn-brand"><i class="bi bi-currency-rupee text-dark"></i>349</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4  col-sm-6 mt-3">
+                <div class="card">
+                  <img src="./images/food-8.webp" class="card-img-top" alt="food-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Akki Tari Uppittu</h5>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <p class="card-text">Explore our menu featuring a range of expertly crafted dishes.expertly crafted
+                      dishes.</p>
+                    <a href="#" class="btn btn-brand"><i class="bi bi-currency-rupee text-dark"></i>299</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4  col-sm-6 mt-3">
+                <div class="card">
+                  <img src="./images/food-12.jpg" class="card-img-top" alt="food-9">
+                  <div class="card-body">
+                    <h5 class="card-title">Peshawari Paneer Tikka</h5>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <p class="card-text">Explore our menu featuring a range of expertly crafted dishes.</p>
+                    <a href="#" class="btn btn-brand"><i class="bi bi-currency-rupee text-dark"></i>459</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </ul>
+    </div>
+  </section>
+  <!--End of Menu-->
+  <!--Features-->
+  <section id="FEATURES">
+    <div class="container-fluid bg-image pb-3">
+      <div class="row text-center">
+        <div class="col-lg-12">
+          <h1 class="display-6 fw-bold mt-2">Why to choose us</h1>
+          <p class="fs-5 mt-3" style="max-width: 600px; margin: auto;">Choose us for an unforgettable dining experience
+            where passion meets excellence. Our commitment to quality and service.</p>
+        </div>
+      </div>
+      <div class="row text-center justify-content-evenly mt-">
+        <div class="col-md-4  col-sm-5 mt-3">
+          <div class="card">
+            <div class="card-body">
+              <div><i class="bi bi-wifi fs-1 fw-bold"></i></div>
+              <h5 class="card-title">Free Wifi</h5>
+              <p class="card-text">Choose us for an unforgettable dining experience where passion meets excellence.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4  col-sm-5 mt-3">
+          <div class="card">
+            <div class="card-body">
+              <div><i class="bi bi-truck fs-1 fw-bold"></i></div>
+              <h5 class="card-title">Fast delivery</h5>
+              <p class="card-text">Choose us for an unforgettable dining experience where passion meets excellence.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4  col-sm-5 mt-3">
+          <div class="card">
+            <div class="card-body">
+              <div><i class="bi bi-person-hearts fs-1 fw-bold"></i></div>
+              <h5 class="card-title">Friendly staff</h5>
+              <p class="card-text">Choose us for an unforgettable dining experience where passion meets excellence.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4  col-sm-5  mt-3">
+          <div class="card">
+            <div class="card-body">
+              <div><i class="bi bi-star-fill fs-1 fw-bold"></i></div>
+              <h5 class="card-title">Highly rated</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--End of Features-->
+  <!-- Chefs-->
+  <section id="TEAM">
+    <div class="container-fluid justify-content-evenly">
+      <div class="row text-center">
+        <div class="col-lg-12">
+          <h1 class="display-6 fw-bold mt-2">Meet our chefs</h1>
+          <p class="fs-5 mt-3" style="max-width: 650px; margin: auto;">Effective management combines culinary expertise
+            with strong organizational skills to drive business success and customer satisfaction.</p>
+        </div>
+      </div>
+      <div class="row justify-content-evenly chefs mt-5">
+        <div class="col-lg-3  col-sm-5 text-center mt-3" style="max-width:15rem;">
+          <img src="./images/team-1.jpg" class="img-fluid">
+          <h5>Jon Doe</h5>
+          <p>Main chef</p>
+        </div>
+        <div class="col-lg-3 col-sm-5 text-center mt-3" style="max-width:15rem;">
+          <img src="./images/team-2.jpg" class="img-fluid">
+          <h5>Jon Rhoo</h5>
+          <p>Main chef</p>
+        </div>
+        <div class="col-lg-3 col-sm-5 text-center mt-3" style="max-width:15rem;">
+          <img src="./images/team-3.jpg" class="img-fluid">
+          <h5>Jon Mann</h5>
+          <p>Main chef</p>
+        </div>
+        <div class="col-lg-3 col-sm-5 text-center mt-3" style="max-width:15rem;">
+          <img src="./images/team-4.jpg" class="img-fluid">
+          <h5>Jon Sagg</h5>
+          <p>Main chef</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--End of Chefs-->
+  <!-- Clients Review-->
+  <section  id="clients ">
+    <div class="container-fluid">
+      <div class="row text-center justify-content-center">
+        <div class="col-md-12">
+          <h1 class="display-6 fw-bold mt-2">Our clients say</h1>
+          <p class="fs-5 mt-3" style="max-width: 650px; margin: auto;">Spice Garden delivers a delightful Indian dining
+            experience with its rich Chicken Tikka Masala and aromatic
+            Vegetable Biryani.</p>
+        </div>
+      </div>
+    </div>
+    <div id="carouselExampleCaptions" class="carousel slide clients mt-5">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner text-dark ">
+        <div class="carousel-item active clients-review-1">
+          <div class="row text-center justify-content-center mt-3 review-box">
+            <div class="col-lg-8 col-md-8 col-sm-8 bg-rev p-5">
+              <div class="review-icon">
+                <i class="bi bi-quote"></i>
+              </div>
+              <p>"Spice Junction brings the flavors of India to life with its vibrant and aromatic dishes. The
+                butter chicken is rich and creamy, and the naan is perfectly fluffy. The ambiance is warm and
+                inviting, though the space can get quite crowded during dinner. Service is attentive but can be a
+                bit slow at peak times. A great spot for authentic Indian cuisine."</p>
+              <div>
+                <img src="./images/testimonial-1.jpg" class="img-fluid">
+              </div>
+              <span class="pt-4">
+                <h4>Smrithi</h4>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item clients-review-2">
+          <div class="row text-center justify-content-center mt-3 review-box">
+            <div class="col-lg-8 col-md-8 col-sm-8 bg-rev p-5">
+              <div class="review-icon">
+                <i class="bi bi-quote"></i>
+              </div>
+              <p>"Spice Junction brings the flavors of India to life with its vibrant and aromatic dishes. The
+                butter chicken is rich and creamy, and the naan is perfectly fluffy. The ambiance is warm and
+                inviting, though the space can get quite crowded during dinner. Service is attentive but can be a
+                bit slow at peak times. A great spot for authentic Indian cuisine."</p>
+              <div>
+                <img src="./images/testimonial-2.jpg" class="img-fluid">
+              </div>
+              <span class="pt-4">
+                <h4>Virat</h4>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item clients-review-3">
+          <div class="row text-center justify-content-center mt-3 review-box">
+            <div class="col-lg-8 col-md-8 col-sm-8 bg-rev p-5">
+              <div class="review-icon">
+                <i class="bi bi-quote"></i>
+              </div>
+              <p>"Spice Junction brings the flavors of India to life with its vibrant and aromatic dishes. The
+                butter chicken is rich and creamy, and the naan is perfectly fluffy. The ambiance is warm and
+                inviting, though the space can get quite crowded during dinner. Service is attentive but can be a
+                bit slow at peak times. A great spot for authentic Indian cuisine."</p>
+              <div>
+                <img src="./images/testimonial-3.jpg" class="img-fluid">
+              </div>
+              <span class="pt-4">
+                <h4>R-Sharma</h4>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <!-- End of Clients Reveiew-->
+  <!--Reservation-->
+  <section id="RESERVATION">
+    <div class="container-fluid text-center justify-content-center">
+      <div class="row text-center justify-content-center">
+        <div class="col-md-12">
+          <h1 class="display-6 fw-bold mt-2">Reservation</h1>
+          <p class="fs-5 mt-3" style="max-width: 650px; margin: auto;">Book Your Table at Spice Garden Today!
+            Experience Authentic Indian Cuisine with a Reservation</p>
+        </div>
+      </div>
+      <div class="container-fluid pt-4 justify-content-center">
+        <div class="row g-4 justify-content-center">
+          <div class="col-5">
+            <input type="text" class="form-control" placeholder="Full name" aria-label="Full name">
+          </div>
+          <div class="col-5">
+            <input type="email" class="form-control" placeholder="Email Address" aria-label="Email Address">
+          </div>
+          <div class="col-5">
+            <input type="date" class="form-control" placeholder="Date" aria-label="Date">
+          </div>
+          <div class="col-5">
+            <input type="number" class="form-control" placeholder="Number of Persons" aria-label="Number of Persons">
+          </div>
+          <div class="col-5">
+            <input type="text" class="form-control" placeholder="Country" aria-label="Country">
+          </div>
+          <div class="col-5">
+            <input type="text" class="form-control" placeholder="Village" aria-label="Village">
+          </div>
+          <div class="col-10">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+          </div>
+
+        </div>
+
+      </div>
+      <a href="#" class="btn btn-brand text-center mt-4">Send Message</a>
+    </div>
+  </section>
+  <!-- End of Reservation-->
+  <!--Blog-->
+  <section id="BLOG">
+    <div class="container-fluid justify-content-center">
+      <div class="row  text-center">
+        <div class="col-12">
+          <h1 class="display-6 fw-bold mt-2">Latest Blog Posts</h1>
+          <p class="fs-5 mt-3" style="max-width: 650px; margin: auto;">For the latest blog updates, check out our new
+            pictures featuring vibrant dishes and behind-the-scenes shots at Spice Garden. </p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid justify-content-center">
+      <div class="row justify-content-evenly ">
+        <div class="col-lg-3 col-md-4  col-sm-6 mt-3">
+          <div class="card">
+            <img src="./images/well-8.jpg" class="card-img-top" alt="food-1">
+            <div class="card-body">
+              <h5>How to make delicious food</h5>
+              <p class="card-text">Discover how to make your favorite dishes right in your kitchen with our
+                easy-to-follow recipes.</p>
+              <p>Read more -></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4  col-sm-6 mt-3">
+          <div class="card">
+            <img src="./images/well-7.jpg" class="card-img-top" alt="food-2">
+            <div class="card-body">
+              <h5>How to make delicious food</h5>
+              <p class="card-text">Discover how to make your favorite dishes right in your kitchen with our
+                easy-to-follow recipes.</p>
+              <p>Read more -></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4  col-sm-6 mt-3">
+          <div class="card">
+            <img src="./images/well-5.jpg" class="card-img-top" alt="food-3">
+            <div class="card-body">
+              <h5>How to make delicious food</h5>
+              <p class="card-text">Discover how to make your favorite dishes right in your kitchen with our
+                easy-to-follow recipes.</p>
+              <p>Read more -></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4  col-sm-6 mt-3">
+          <div class="card">
+            <img src="./images/well-3.jpg" class="card-img-top" alt="food-3">
+            <div class="card-body">
+              <h5>How to make delicious food</h5>
+              <p class="card-text">Discover how to make your favorite dishes right in your kitchen with our
+                easy-to-follow recipes.</p>
+              <p>Read more -></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4  col-sm-6 mt-3">
+          <div class="card">
+            <img src="./images/well-4.jpg" class="card-img-top" alt="food-3">
+            <div class="card-body">
+              <h5>How to make delicious food</h5>
+              <p class="card-text">Discover how to make your favorite dishes right in your kitchen with our
+                easy-to-follow recipes.</p>
+              <p>Read more -></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4  col-sm-6 mt-3">
+          <div class="card">
+            <img src="./images/well-6.jpg" class="card-img-top" alt="food-3">
+            <div class="card-body">
+              <h5>How to make delicious food</h5>
+              <p class="card-text">Discover how to make your favorite dishes right in your kitchen with our
+                easy-to-follow recipes.</p>
+              <p>Read more -></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section class="footer">
+    <div class="container-fluid justify-content-center">
+      <div class="row justify-content-evenly">
+        <div class="col-md-3 col-sm-5 mt-3">
+          <img src="./images/logo-2.png" alt="Restoran" height="20px" width="50px" class="img-fluid logo">
+          <p class="pt-4 "> Enjoy a warm, welcoming <br />atmosphere and exceptional <br />service</p>
+          <span>
+            <i class="bi bi-instagram me-3 pt-3"></i>
+            <i class="bi bi-twitter-x me-3 pt-3"></i>
+            <i class="bi bi-facebook me-3 pt-3"></i>
+            <i class="bi bi-youtube me-3 pt-3"></i>
+          </span>
+
+        </div>
+        <div class="col-md-3 col-sm-5 mt-3">
+          <h6 class="fs-3">CONTACT</h6>
+          <P>Ph :91+ 6362716157<br />
+            Email :rohith@gmail.com<br />
+            Address : Shivanagara,<br />
+            Nelamangala
+            Bengaluru.<br />
+            Pincode : 562123</P>
+        </div>
+        <div class="col-md-3 col-sm-5 mt-3">
+          <h6 class="fs-4">OPENING HOURS</h6>
+          <P>Monday-Friday :<br /> 08:00 - 22:00<br><br />
+            Saturday-Sunday :<br /> 08:00 - 22:00</P>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <div class="container-fluid">
+    <div class="row text-center bg-footer">
+      <div class="col-12">
+        <p>Copyright © 2010-2024 All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+  <!--End of Blog-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
